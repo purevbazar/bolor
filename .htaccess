@@ -1,0 +1,35 @@
+Options +FollowSymlinks
+RewriteEngine On
+
+# deal with admin first
+RewriteCond %{REQUEST_URI} ^/bolor/(administrator) 
+RewriteRule ^administrator/assets/(.*)$ backend/web/assets/$1 [L]
+RewriteRule ^administrator/css/(.*)$ backend/web/css/$1 [L]
+
+RewriteCond %{REQUEST_URI} !^/bolor/backend/web/(assets|css)/  
+RewriteCond %{REQUEST_URI} ^/bolor/(administrator)  
+RewriteRule ^.*$ backend/web/index.php [L]
+
+
+RewriteCond %{REQUEST_URI} ^/bolor/(assets|css)  
+RewriteRule ^assets/(.*)$ frontend/web/assets/$1 [L]
+RewriteRule ^css/(.*)$ frontend/web/css/$1 [L]
+RewriteRule ^images/(.*)$ frontend/web/images/$1 [L]
+RewriteRule ^js/(.*)$ frontend/web/js/$1 [L]
+RewriteRule ^rs-plugin/(.*)$ frontend/web/rs-plugin/$1 [L]
+RewriteRule ^pretty/(.*)$ frontend/web/pretty/$1 [L]
+RewriteRule ^slide15/(.*)$ frontend/web/slide15/$1 [L]
+RewriteRule ^fonts/(.*)$ frontend/web/fonts/$1 [L]
+
+RewriteCond %{REQUEST_URI} !^/bolor/(frontend|backend)/web/(assets|css)/ 
+RewriteCond %{REQUEST_URI} !^/bolor/(frontend|backend)/web/(assets|images)/ 
+RewriteCond %{REQUEST_URI} !^/bolor/(frontend|backend)/web/(assets|js)/  
+RewriteCond %{REQUEST_URI} !^/bolor/(frontend|backend)/web/(assets|rs-plugin)/ 
+RewriteCond %{REQUEST_URI} !^/bolor/(frontend|backend)/web/(assets|slide15)/ 
+RewriteCond %{REQUEST_URI} !^/bolor/(frontend|backend)/web/(assets|pretty)/ 
+RewriteCond %{REQUEST_URI} !^/bolor/(frontend|backend)/web/(assets|fonts)/ 
+
+RewriteCond %{REQUEST_URI} !index.php
+RewriteCond %{REQUEST_FILENAME} !-f [OR]
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^.*$ frontend/web/index.php
