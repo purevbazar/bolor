@@ -2,16 +2,17 @@ Options +FollowSymlinks
 RewriteEngine On
 
 # deal with admin first
-RewriteCond %{REQUEST_URI} ^/bolor/(administrator) 
+RewriteCond %{REQUEST_URI} ^/khaandevshil/(administrator) 
 RewriteRule ^administrator/assets/(.*)$ backend/web/assets/$1 [L]
 RewriteRule ^administrator/css/(.*)$ backend/web/css/$1 [L]
+RewriteRule ^administrator/js/(.*)$ backend/web/js/$1 [L]
 
-RewriteCond %{REQUEST_URI} !^/bolor/backend/web/(assets|css)/  
-RewriteCond %{REQUEST_URI} ^/bolor/(administrator)  
+RewriteCond %{REQUEST_URI} !^/khaandevshil/backend/web/(assets|css)/  
+RewriteCond %{REQUEST_URI} ^/khaandevshil/(administrator)  
 RewriteRule ^.*$ backend/web/index.php [L]
 
 
-RewriteCond %{REQUEST_URI} ^/bolor/(assets|css)  
+RewriteCond %{REQUEST_URI} ^/khaandevshil/(assets|css)  
 RewriteRule ^assets/(.*)$ frontend/web/assets/$1 [L]
 RewriteRule ^css/(.*)$ frontend/web/css/$1 [L]
 RewriteRule ^images/(.*)$ frontend/web/images/$1 [L]
@@ -21,13 +22,13 @@ RewriteRule ^pretty/(.*)$ frontend/web/pretty/$1 [L]
 RewriteRule ^slide15/(.*)$ frontend/web/slide15/$1 [L]
 RewriteRule ^fonts/(.*)$ frontend/web/fonts/$1 [L]
 
-RewriteCond %{REQUEST_URI} !^/bolor/(frontend|backend)/web/(assets|css)/ 
-RewriteCond %{REQUEST_URI} !^/bolor/(frontend|backend)/web/(assets|images)/ 
-RewriteCond %{REQUEST_URI} !^/bolor/(frontend|backend)/web/(assets|js)/  
-RewriteCond %{REQUEST_URI} !^/bolor/(frontend|backend)/web/(assets|rs-plugin)/ 
-RewriteCond %{REQUEST_URI} !^/bolor/(frontend|backend)/web/(assets|slide15)/ 
-RewriteCond %{REQUEST_URI} !^/bolor/(frontend|backend)/web/(assets|pretty)/ 
-RewriteCond %{REQUEST_URI} !^/bolor/(frontend|backend)/web/(assets|fonts)/ 
+RewriteCond %{REQUEST_URI} !^/khaandevshil/(frontend|backend)/web/(assets|css)/ 
+RewriteCond %{REQUEST_URI} !^/khaandevshil/(frontend|backend)/web/(assets|images)/ 
+RewriteCond %{REQUEST_URI} !^/khaandevshil/(frontend|backend)/web/(assets|js)/  
+RewriteCond %{REQUEST_URI} !^/khaandevshil/(frontend|backend)/web/(assets|rs-plugin)/ 
+RewriteCond %{REQUEST_URI} !^/khaandevshil/(frontend|backend)/web/(assets|slide15)/ 
+RewriteCond %{REQUEST_URI} !^/khaandevshil/(frontend|backend)/web/(assets|pretty)/ 
+RewriteCond %{REQUEST_URI} !^/khaandevshil/(frontend|backend)/web/(assets|fonts)/ 
 
 RewriteCond %{REQUEST_URI} !index.php
 RewriteCond %{REQUEST_FILENAME} !-f [OR]

@@ -6,6 +6,7 @@ use yii\web\Controller;
 use yii\filters\VerbFilter;
 use yii\filters\AccessControl;
 use common\models\LoginForm;
+use backend\models\General;
 
 /**
  * Site controller
@@ -26,7 +27,7 @@ class SiteController extends Controller
                         'allow' => true,
                     ],
                     [
-                        'actions' => ['logout', 'index'],
+                        'actions' => ['logout', 'index', 'general', 'submit'],
                         'allow' => true,
                         'roles' => ['@'],
                     ],
@@ -94,5 +95,29 @@ class SiteController extends Controller
         Yii::$app->user->logout();
 
         return $this->goHome();
+    }
+
+    public function actionGeneral(){
+        if(empty(\app\models\General::findOne(1))){
+            $model = new \app\models\General();
+        }else{
+        $model = \app\models\General::findOne(1);}
+        return $this->render('general', ['model'=>$model]);
+    }
+    public function actionSubmit(){
+        $request = Yii::$app->request;
+       if(empty(\app\models\General::findOne(1))){
+            $model = new \app\models\General();
+        }else{
+        $model = \app\models\General::findOne(1);}
+        $model->title =  $request->post('title');
+        $model->description = $request->post('description');
+        $model->phone = $request->post('phone');
+        $model->address = $request->post('address');
+        $model->facebook = $request->post('facebook');
+        $model->google_coordinate = $request->post('google_gps');
+        $model->save();
+        Yii::$app->session->setFlash('success', "Амжилттай хадгалагдлаа");
+        return $this->render('general', ['model'=>$model]);
     }
 }

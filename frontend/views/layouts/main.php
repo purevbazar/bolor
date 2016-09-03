@@ -20,8 +20,8 @@ AppAsset::register($this);
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- DEFAULT TEMPLATE FONTS DO NOT REMOVE -->
-    <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,800,300,600,700' rel='stylesheet' type='text/css'>
-    <link href='http://fonts.googleapis.com/css?family=PT+Sans:400,700' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=PT+Sans:400,400italic,700,700italic&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=PT+Sans+Narrow:400,700&subset=latin,cyrillic-ext' rel='stylesheet' type='text/css'>
     <!-- EXTRA FONT FOR SLIDER -->
     <link href='http://fonts.googleapis.com/css?family=Six+Caps' rel='stylesheet' type='text/css'>
     <?= Html::csrfMetaTags() ?>
@@ -55,7 +55,7 @@ AppAsset::register($this);
 <!-- *** FOOTER START *** -->
 <div id="footer" class="animated" data-animation-target="21">
     <div class="col_footer">
-        <h2>About Us</h2>
+        <h2>Бидэнтэй холбогдох</h2>
         <div class="footer_logo"><img src="images/logo_footer.png" alt=""></div>
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae aspernatur, ratione voluptatum a, quam voluptate quibusdam reiciendis cupiditate quia fugiat earum, vero eveniet reprehenderit.</p>
 
@@ -85,12 +85,12 @@ AppAsset::register($this);
     </div>
 
     <div class="col_footer middle">
-            <h2>Our latest tweets</h2>  
+            <h2>Бидний хаяг</h2>  
         <div class="tweet"></div>
     </div>
 
     <div class="col_footer">
-        <h2>Contact</h2>
+        <h2>Холбоо барих</h2>
 
         <form method="post" class="reply-input" action="http://bypixels.com/themes/anderson/send.php">
 

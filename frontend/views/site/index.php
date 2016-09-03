@@ -14,10 +14,10 @@ $this->title = 'My Yii Application';
 
                 <!-- *** LOGOS STARTS *** -->
                 <div id="logo">
-                    <a href="#top"><img src="images/untitled-2.png" alt="logo" height = 25px></a>
+                    <a href="#top"><img src="images/logo.png" alt="logo" height = 30px></a>
                 </div>
                 <div id="logo_dark">
-                    <a href="#top"><img src="images/logo_dark.png" alt="logo"></a>
+                    <a href="#top"><img src="images/logo.png" alt="logo" height = 30px></a>
                 </div> 
                 <!-- *** LOGOS END *** -->
 
@@ -27,7 +27,6 @@ $this->title = 'My Yii Application';
 
                     <div class="social_nav">
                     <ul>
-                        <li class="twitter_header_icon"><a href="#twitter"><i class="fa fa-twitter fa-2x"></i></a></li>
                         <li class="facebook_header_icon"><a href="#facebook"><i class="fa fa-facebook fa-2x"></i></a></li>
                     </ul>
                 </div>
@@ -38,13 +37,9 @@ $this->title = 'My Yii Application';
                         <li class="active"><a href="#top">Нүүр</a></li>
                         <li><a href="#about-us">Бидний тухай </a></li>
                         <li><a href="#services">Үйлчилгээ</a></li>
-                        <li><a href="#portfolio">Блог</a></li>
-                        <li><a href="#process_one">Процесс</a></li>
                         <li><a href="#faq">Түгээмэл асуулт</a></li>
-                        <li><a href="#blog">Блог</a></li>
+                        <li><a href="#customers">Харилцагчид</a></li>
                         <li><a href="#footer">Холбоо барих</a></li>
-                        <li><a href="shortcodes.html" class="external">Shortcodes <span class="label label-danger">New</span></a></li>
-                    </ul>
                 </nav>
                 <!-- *** MAIN NAVIGATION END *** -->
 
@@ -61,11 +56,8 @@ $this->title = 'My Yii Application';
                 <li><a href="#about-us">Бидний тухай </a></li>
                 <li><a href="#services">Үйлчилгээ</a></li>
                 <li><a href="#portfolio">Хорнууд</a></li>
-                <li><a href="#process_one">Процэсс</a></li>
                 <li><a href="#faq">Түгээмэл асуугддаг асуултууд</a></li>
-                <li><a href="#blog">Блог</a></li>
                 <li><a href="#footer">Холбоо барих</a></li>
-                <li><a href="shortcodes.html" class="external">Shortcodes <span class="label label-danger">New</span></a></li>
             </ul>
         </div><!--mobileAreaMenu-->
     </div><!--responsive_nav-->
@@ -99,7 +91,7 @@ $this->title = 'My Yii Application';
         data-y="255" 
         data-speed="900" 
         data-start="1100" 
-        data-easing="easeOutExpo">Принтерийн</div>
+        data-easing="easeOutExpo">Бид</div>
 
 
 
@@ -109,7 +101,7 @@ $this->title = 'My Yii Application';
         data-y="center" 
         data-speed="900" 
         data-start="1300" 
-        data-easing="easeOutExpo">бүх  <br>төрлийн хор</div>
+        data-easing="easeOutExpo">машин  <br>механизм</div>
 
 
         <!-- CAPTION NR. 1 -->
@@ -118,7 +110,7 @@ $this->title = 'My Yii Application';
         data-y="630" 
         data-speed="900" 
         data-start="1500" 
-        data-easing="easeOutExpo">худалдаалж байна <span style="font-weight: bold;">today</span></div>
+        data-easing="easeOutExpo">болон худалдааны чиглэлээр үйл ажиллагаа явуулж байна <span style="font-weight: bold;"></span></div>
 
 
     <div class="caption lfb ltb"  
@@ -192,23 +184,6 @@ $this->title = 'My Yii Application';
 <!-- *** SLIDE END *** -->
 
 
-<!-- *** WELCOME STARTS *** -->
-<div id="welcome">
-    <div class="container">
-        <div class="row">
-            <div class="col-md-12">
-                <div class="logo_welcome">
-                    <img src="images/logo-anderson.png" alt="">
-                </div>
-                <div class="welcome-text">
-                    <p>Хамгийн сайн ‪#‎Принтерийн‬ хор хамгийн тод гарч, хамгийн олон удаа хэвлэгддэг.......
-Албан байгууллагууд өдөр тутмын ажилдаа принтерийн хор, бичгийн цаасыг тогтмол, тасралтгүй хэрэглэж байна. Харин сайн чанартай, тод хэвлэлттэй, зураасгүй гардаг, асгардаггүй принтерийн хор хэрэглэх нь ажилтнуудын ажлын бүтээмж, цаашлаад харилцагчийн сэтгэл ханамжид хэрхэн нөлөөлдөгийг та бодолцож үзсэн хэрэгтэй бөгөөд аливаа амжилтын эхлэл жижиг зүйлээс эхэлдэг. </p>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-<!-- *** WELCOME END *** -->
 
 <!-- *** ABOUT US STARTS *** -->
 <div id="about-us" class="section nobottom">
@@ -217,7 +192,7 @@ $this->title = 'My Yii Application';
         <div class="row">
             <div class="col-md-12 animated" data-animation-target="2">
                 <div class="page_title">
-                    <h1 class="title">Принтерийн хорийг яаж сайн мууг нь <strong>ялгах</strong> вэ?</h1>
+                    <h1 class="title">Хааш дэвшил компань нь үндсэн <strong>гурван</strong> чиглэлээр үйл ажиллагаа явуулж</h1>
                     <h2 class="page_subtitle">Та бүхэн хэвлэгчийн, бас хувилагчаа хэрхэн удаан хугцаанд хэргэлэх вэ гэж боддог уу?
 Тэгвэл хамгийн гол нь хорыг нь зөв сонгож авах хэрэгтэй. Үүний тулд:
 -Картрижийн лацыг шалгах. Дахин боловсруулсан болон цэнэглэгдсэн хорыг ингэж шалгаж болох боловч харамсалтай нь манай худалдаалагчид хорны уутыг задлахыг зєвшєєрдєггvй. -OPC Drum-ийг єнгєєр ялгах.</h2>
@@ -227,50 +202,11 @@ $this->title = 'My Yii Application';
         </div><!--row-->
     </div><!--container-->
 
-    <div class="about_wrapper">
-        <div class="about_image animated" data-animation-target="3"></div>
-        <div class="container">
-            <div class="row">
-                    <div class="col-md-6 col-md-offset-6">
-                        <div class="about_content animated" data-animation-target="4">
-                            <h2 class="about_title">We are pretty handy at digital</h2>
-
-                            <p>These new cases are as colorful and well made as iPhone 5c because they were designed right alongside it. The fit is impeccable. And they come in six different colors, so you can create 30 bright combinations. These new cases are as colorful and well made as iPhone 5c because they were designed right alongside it. The fit is impeccable. And they </p>
-
-                            <div class="divider_padding"></div>
-
-                            <div class="skill">
-                                <h4>SEO</h4>
-                                <div class="skillbar"><div class="bar"><span class="percent">60%</span></div></div>
-                                <h4>Jquery</h4>
-                                <div class="skillbar"><div class="bar"><span class="percent">80%</span></div></div>
-                                <h4>Wordpress</h4>
-                                <div class="skillbar"><div class="bar"><span class="percent">95%</span></div></div>
-                                <h4>HTML5</h4>
-                                <div class="skillbar"><div class="bar"><span class="percent">90%</span></div></div>
-                                <h4>CSS</h4>
-                                <div class="skillbar"><div class="bar"><span class="percent">80%</span></div></div>
-                            </div><!--skills-->
-                        </div>  <!--about_content-->
-                    </div><!--col-md-6-->
-                
-            </div><!--row-->
-        </div><!--container-->
-    </div><!--about_wrapper-->
-
-
-<div class="clear"></div>
-</div>
-<!-- *** ABOUT US END *** -->
-
-<!-- *** TEAM START *** -->
-<div id="team" class="section nobottom">
-    
-    <div class="container">
+<div class="container">
         <div class="row">
             <div class="col-md-12 animated"  data-animation-target="5">
                 <div class="page_title">
-                    <h1 class="title">This is our great <strong>team</strong></h1>
+                    <h1 class="title">Энэ бол манай баг</h1>
                     <h2 class="page_subtitle">The right people in the right job</h2>
                 </div><!--page-title-->
             </div>
@@ -282,10 +218,10 @@ $this->title = 'My Yii Application';
 
 
         <!-- *** TEAM PERSON 1 *** -->
-        <div class="team_item" style="background-image: url('images/team-1.jpg')">
+        <div class="team_item" style="background-image: url('images/bag-1.png')">
             <div class="team_description">
-                <h2>Mike Smith</h2>
-                <p class="job">Founder - Developer</p>
+                <h2>Ш.Давааням</h2>
+                <p class="job">Ерөнхий захирал</p>
             </div><!--team_description-->
             <div class="team_over">
                 <ul class="social_team">
@@ -299,10 +235,10 @@ $this->title = 'My Yii Application';
 
 
         <!-- *** TEAM PERSON 2 *** -->
-        <div class="team_item" style="background-image: url('images/team-2.jpg')">
+        <div class="team_item" style="background-image: url('images/bag-2.png')">
             <div class="team_description">
-                <h2>Trevor Wayne</h2>
-                <p class="job">Designer - Developer</p>
+                <h2>Ш.Оюунгэрэл</h2>
+                <p class="job">Санхүү хариуцсан захирал</p>
             </div><!--team_description-->
             <div class="team_over">
                 <ul class="social_team">
@@ -318,8 +254,8 @@ $this->title = 'My Yii Application';
         <!-- *** TEAM PERSON 3 *** -->
         <div class="team_item" style="background-image: url('images/team-3.jpg')">
             <div class="team_description">
-                <h2>John Ruth</h2>
-                <p class="job">Marketing</p>
+                <h2>Ш.Оюунтөгс</h2>
+                <p class="job">Гадаа худалдаа хариуцсан захирал</p>
             </div><!--team_description-->
             <div class="team_over">
                 <ul class="social_team">
@@ -335,8 +271,8 @@ $this->title = 'My Yii Application';
         <!-- *** TEAM PERSON 4 *** -->
         <div class="team_item" style="background-image: url('images/team-4.jpg')">
             <div class="team_description">
-                <h2>Sara Brother</h2>
-                <p class="job">Designer</p>
+                <h2>Мийгаа</h2>
+                <p class="job">Сургалт хариуцсан менежер</p>
             </div><!--team_description-->
             <div class="team_over">
                 <ul class="social_team">
@@ -349,6 +285,14 @@ $this->title = 'My Yii Application';
         <!-- *** TEAM PERSON 4 *** -->
         
     </div><!--team_container-->
+
+</div>
+<!-- *** ABOUT US END *** -->
+
+<!-- *** TEAM START *** -->
+<div id="team" class="section nobottom">
+    
+    
 <div class="clear"></div>
 </div>
 <!-- *** TEAM END *** -->
@@ -362,10 +306,10 @@ $this->title = 'My Yii Application';
                 <div class="col-md-12">
                     <div id="service_tab_triggers">
                         <ul>
-                            <li class="active"><a href="#service_1"><i class="fa fa-rocket fa-4x"></i></a></li>
-                            <li><a href="#service_2"><i class="fa fa-gear fa-4x"></i></a></li>
-                            <li><a href="#service_3"><i class="fa fa-cloud-upload fa-4x"></i></a></li>
-                            <li><a href="#service_4"><i class="fa fa-briefcase fa-4x"></i></a></li>
+                            <li class="active"><a href="#service_1"><i class="fa fa-truck fa-4x"></i></a></li>
+                            <li><a href="#service_2"><i class="fa fa-shopping-cart fa-4x"></i></a></li>
+                            <li><a href="#service_3"><i class="fa fa-bar-chart fa-4x"></i></a></li>
+                            <br>Тус бүр дээр нь дарж харна уу</br>
                             <li class="clear"></li>
                         </ul>
                     </div>
@@ -384,77 +328,48 @@ $this->title = 'My Yii Application';
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
-                <div class="page_title">
-                    <h1 class="title">welcome we are <strong>Anderson</strong></h1>
-                    <h2 class="page_subtitle">We focus your idea into a unique vision and identity.</h2>
-                </div><!--page-title-->
-            </div>
-            </div>
+                    <div class="page_title">
+                        <h1 class="title"><strong>1.</strong> Хөдөө аж ахуйн машины үйлдвэрлэл, худалдаа</h1>
+                        <h2 class="page_subtitle">We focus your idea into a unique vision and identity.</h2>
+                    </div><!--page-title-->
+                </div><!--col-md-12-->
+
+
+
+                <div class="service_item_wrapper">  
+                    <div class="col-md-7">
+                        <h1>1. Мал аж ахуй</h1>
+                        <span class="subtitle">Really easy to use</span>
+                        <p class="services_description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos recusandae consequuntur labore excepturi veritatis ipsam hic doloremque expedita repudiandae atque accusantium fugiat sunt, praesentium. Reiciendis maxime, eius quia libero modi.</p>
+                    </div><!--col-md-7-->
+                    <div class="col-md-5"><img src="images/screen_1.png" alt=""></div><!--col-md-5-->
+                    <div class="clear"></div>
+                </div><!--service_item_wrapper-->
+
+
+                <div class="service_item_wrapper">  
+                    <div class="col-md-7">
+                        <h1>2. Газар тариалан</h1>
+                        <span class="subtitle">Impact your visitors</span>
+                        <p class="services_description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos recusandae consequuntur labore excepturi veritatis ipsam hic doloremque expedita repudiandae atque accusantium fugiat sunt, praesentium. Reiciendis maxime, eius quia libero modi.</p>
+                    </div><!--col-md-7-->
+                    <div class="col-md-5"><img src="images/screen_2.png" alt=""></div><!--col-md-5-->
+                    <div class="clear"></div>
+                </div><!--service_item_wrapper-->
+
+                 <div class="service_item_wrapper">  
+                    <div class="col-md-7">
+                        <h1>3. Сэргээгдэх эрчим хүч</h1>
+                        <span class="subtitle">Impact your visitors</span>
+                        <p class="services_description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos recusandae consequuntur labore excepturi veritatis ipsam hic doloremque expedita repudiandae atque accusantium fugiat sunt, praesentium. Reiciendis maxime, eius quia libero modi.</p>
+                    </div><!--col-md-7-->
+                    <div class="col-md-5"><img src="images/screen_2.png" alt=""></div><!--col-md-5-->
+                    <div class="clear"></div>
+                </div><!--service_item_wrapper-->
+
+            </div><!--row-->
+
         </div>
-
-        <div class="service_custom_column">
-            <div class="service_icon"><div class="float-shadow"><img src="images/icons/39.png" alt=""></div></div>
-            <h2>15 Home Variants</h2>
-            <p>Cras vehicula mi eu est vestibulum posuere. Duis et purus at nunc laoreet euismod ut sit amet sem. Proin rhoncus imperdiet consequat lacus arcu vitae magna condimentum pellentesque.</p>
-        </div><!--service_custom_column-->
-
-        <div class="service_custom_column">
-            <div class="service_icon"><div class="float-shadow"><img src="images/icons/3.png" alt=""></div></div>
-            <h2>Bootstrap 3</h2>
-            <p>Cras vehicula mi eu est vestibulum posuere. Duis et purus at nunc laoreet euismod ut sit amet sem. Proin rhoncus imperdiet consequat lacus arcu vitae magna condimentum pellentesque.</p>
-        </div><!--service_custom_column-->
-
-        <div class="service_custom_column">
-            <div class="service_icon"><div class="float-shadow"><img src="images/icons/40.png" alt=""></div></div>
-            <h2>7 different menus</h2>
-            <p>Cras vehicula mi eu est vestibulum posuere. Duis et purus at nunc laoreet euismod ut sit amet sem. Proin rhoncus imperdiet consequat lacus arcu vitae magna condimentum pellentesque.</p>
-        </div><!--service_custom_column-->
-
-        <div class="service_custom_column">
-            <div class="service_icon"><div class="float-shadow"><img src="images/icons/23.png" alt=""></div></div>
-            <h2>100% Responsive</h2>
-            <p>Cras vehicula mi eu est vestibulum posuere. Duis et purus at nunc laoreet euismod ut sit amet sem. Proin rhoncus imperdiet consequat lacus arcu vitae magna condimentum pellentesque.</p>
-        </div><!--service_custom_column-->
-
-        <div class="service_custom_column">
-            <div class="service_icon"><div class="float-shadow"><img src="images/icons/85.png" alt=""></div></div>
-            <h2>Retina Ready</h2>
-            <p>Cras vehicula mi eu est vestibulum posuere. Duis et purus at nunc laoreet euismod ut sit amet sem. Proin rhoncus imperdiet consequat lacus arcu vitae magna condimentum pellentesque.</p>
-        </div><!--service_custom_column-->
-
-            
-        <div class="service_custom_column">
-            <div class="service_icon"><div class="float-shadow"><img src="images/icons/38.png" alt=""></div></div>
-            <h2>Isotope portfolio</h2>
-            <p>Cras vehicula mi eu est vestibulum posuere. Duis et purus at nunc laoreet euismod ut sit amet sem. Proin rhoncus imperdiet consequat lacus arcu vitae magna condimentum pellentesque.</p>
-        </div><!--service_custom_column-->
-
-        <div class="service_custom_column">
-            <div class="service_icon"><div class="float-shadow"><img src="images/icons/82.png" alt=""></div></div>
-            <h2>FontAwesome Icons</h2>
-            <p>Cras vehicula mi eu est vestibulum posuere. Duis et purus at nunc laoreet euismod ut sit amet sem. Proin rhoncus imperdiet consequat lacus arcu vitae magna condimentum pellentesque.</p>
-        </div><!--service_custom_column-->
-
-        <div class="service_custom_column">
-            <div class="service_icon"><div class="float-shadow"><img src="images/icons/43.png" alt=""></div></div>
-            <h2>Revolution slider</h2>
-            <p>Cras vehicula mi eu est vestibulum posuere. Duis et purus at nunc laoreet euismod ut sit amet sem. Proin rhoncus imperdiet consequat lacus arcu vitae magna condimentum pellentesque.</p>
-        </div><!--service_custom_column-->
-
-        <div class="service_custom_column">
-            <div class="service_icon"><div class="float-shadow"><img src="images/icons/7.png" alt=""></div></div>
-            <h2>Ajax Portfolio</h2>
-            <p>Cras vehicula mi eu est vestibulum posuere. Duis et purus at nunc laoreet euismod ut sit amet sem. Proin rhoncus imperdiet consequat lacus arcu vitae magna condimentum pellentesque.</p>
-        </div><!--service_custom_column-->
-
-        <div class="service_custom_column">
-            <div class="service_icon"><div class="float-shadow"><img src="images/icons/55.png" alt=""></div></div>
-            <h2>Parallax Scrolling</h2>
-            <p>Cras vehicula mi eu est vestibulum posuere. Duis et purus at nunc laoreet euismod ut sit amet sem. Proin rhoncus imperdiet consequat lacus arcu vitae magna condimentum pellentesque.</p>
-        </div><!--service_custom_column-->
-
-
-        <div class="clear"></div>
     </div><!--Service Wrapper Tab 1-->
     <!-- *** END OF THE FIRST(01) TAB CONTENT *** -->
 
@@ -471,7 +386,7 @@ $this->title = 'My Yii Application';
                 
                 <div class="col-md-12">
                     <div class="page_title">
-                        <h1 class="title">Let's build the  <strong>next web</strong></h1>
+                        <h1 class="title"><strong>2.</strong> Гадаад худалдаа</h1>
                         <h2 class="page_subtitle">We focus your idea into a unique vision and identity.</h2>
                     </div><!--page-title-->
                 </div><!--col-md-12-->
@@ -480,7 +395,7 @@ $this->title = 'My Yii Application';
 
                 <div class="service_item_wrapper">  
                     <div class="col-md-7">
-                        <h1>Enjoy 7 different menu styles</h1>
+                        <h1>1. Хөдөө аж ахуйн машин, сэлбэг</h1>
                         <span class="subtitle">Really easy to use</span>
                         <p class="services_description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos recusandae consequuntur labore excepturi veritatis ipsam hic doloremque expedita repudiandae atque accusantium fugiat sunt, praesentium. Reiciendis maxime, eius quia libero modi.</p>
                     </div><!--col-md-7-->
@@ -491,7 +406,7 @@ $this->title = 'My Yii Application';
 
                 <div class="service_item_wrapper">  
                     <div class="col-md-7">
-                        <h1>More than 14 Home Variants</h1>
+                        <h1>2. Багаж тоног төхөөрөмж</h1>
                         <span class="subtitle">Impact your visitors</span>
                         <p class="services_description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos recusandae consequuntur labore excepturi veritatis ipsam hic doloremque expedita repudiandae atque accusantium fugiat sunt, praesentium. Reiciendis maxime, eius quia libero modi.</p>
                     </div><!--col-md-7-->
@@ -501,7 +416,7 @@ $this->title = 'My Yii Application';
 
                 <div class="service_item_wrapper">  
                     <div class="col-md-7">
-                        <h1>Fully Responsive & Retina Ready</h1>
+                        <h1>3. Машин механизм, сэлбэг</h1>
                         <span class="subtitle">Works great en every device</span>
                         <p class="services_description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos recusandae consequuntur labore excepturi veritatis ipsam hic doloremque expedita repudiandae atque accusantium fugiat sunt, praesentium. Reiciendis maxime, eius quia libero modi.</p>
                     </div><!--col-md-7-->
@@ -511,15 +426,13 @@ $this->title = 'My Yii Application';
 
                 <div class="service_item_wrapper">  
                     <div class="col-md-7">
-                        <h1>Need Support? We are here to help</h1>
+                        <h1>4. Хүнс бараа материал</h1>
                         <span class="subtitle">We've got you covered</span>
                         <p class="services_description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos recusandae consequuntur labore excepturi veritatis ipsam hic doloremque expedita repudiandae atque accusantium fugiat sunt, praesentium. Reiciendis maxime, eius quia libero modi.</p>
                     </div><!--col-md-7-->
                     <div class="col-md-5"><img src="images/screen_4.png" alt=""></div><!--col-md-5-->
                     <div class="clear"></div>
                 </div><!--service_item_wrapper-->
-
-
             </div><!--row-->
         </div><!--container-->
         <div class="clear"></div>
@@ -538,720 +451,44 @@ $this->title = 'My Yii Application';
             <div class="row">
                 <div class="col-md-12">
                     <div class="page_title">
-                        <h1 class="title">This is a really nice<strong> h1 heading</strong></h1>
+                        <h1 class="title"><strong>3.</strong> Автын зөвлөх үйлчилгээ</h1>
                         <h2 class="page_subtitle">We focus your idea into a unique vision and identity.</h2>
                     </div><!--page-title-->
                 </div><!--col-md-12-->
 
+                 <div class="service_item_wrapper">  
+                    <div class="col-md-7">
+                        <h1>1. Хөдөө аж ахуйн машин, сэлбэг</h1>
+                        <span class="subtitle">Really easy to use</span>
+                        <p class="services_description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos recusandae consequuntur labore excepturi veritatis ipsam hic doloremque expedita repudiandae atque accusantium fugiat sunt, praesentium. Reiciendis maxime, eius quia libero modi.</p>
+                    </div><!--col-md-7-->
+                    <div class="col-md-5"><img src="images/screen_1.png" alt=""></div><!--col-md-5-->
+                    <div class="clear"></div>
+                </div><!--service_item_wrapper-->
 
-                <div class="col-md-4">
-                    <div class="service_item_wrapper">                  
-                        <div class="icon_wrapper"><a href="#" class="hi-icon"><i class="fa  fa-mobile fa-3x"></i></a></div>
-                        <h2>Fully Responsive</h2>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel eveniet doloribus dignissimos optio fugiat, voluptate incidunt unde voluptatibus soluta officia quam quasi porro, nulla nisi quis dolores in, esse expedita.</p>
-                    </div>
-                </div><!--col-md-4-->
-                <div class="col-md-4">
-                    <div class="service_item_wrapper">                  
-                        <div class="icon_wrapper"><a href="#" class="hi-icon"><i class="fa fa-heart  fa-3x"></i></a></div>
-                        <h2>Bootstrap 3</h2>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel eveniet doloribus dignissimos optio fugiat, voluptate incidunt unde voluptatibus soluta officia quam quasi porro, nulla nisi quis dolores in, esse expedita.</p>
-                    </div>
-                </div><!--col-md-4-->
-                <div class="col-md-4">
-                    <div class="service_item_wrapper">                  
-                        <div class="icon_wrapper"><a href="#" class="hi-icon"><i class="fa fa-support  fa-3x"></i></a></div>
-                        <h2>A+ Free Support </h2>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel eveniet doloribus dignissimos optio fugiat, voluptate incidunt unde voluptatibus soluta officia quam quasi porro, nulla nisi quis dolores in, esse expedita.</p>
-                    </div>
-                </div><!--col-md-4-->
-                <div class="col-md-4">
-                    <div class="service_item_wrapper">                  
-                        <div class="icon_wrapper"><a href="#" class="hi-icon"><i class="fa fa-eye  fa-3x"></i></a></div>
-                        <h2>Retina Ready</h2>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel eveniet doloribus dignissimos optio fugiat, voluptate incidunt unde voluptatibus soluta officia quam quasi porro, nulla nisi quis dolores in, esse expedita.</p>
-                    </div>
-                </div><!--col-md-4-->
-                <div class="col-md-4">
-                    <div class="service_item_wrapper">                  
-                        <div class="icon_wrapper"><a href="#" class="hi-icon"><i class="fa fa-flash  fa-3x"></i></a></div>
-                        <h2>Ajax Portfolio</h2>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel eveniet doloribus dignissimos optio fugiat, voluptate incidunt unde voluptatibus soluta officia quam quasi porro, nulla nisi quis dolores in, esse expedita.</p>
-                    </div>
-                </div><!--col-md-4-->
-                <div class="col-md-4">
-                    <div class="service_item_wrapper">                  
-                        <div class="icon_wrapper"><a href="#" class="hi-icon"><i class="fa fa-rocket  fa-3x"></i></a></div>
-                        <h2>Revolution Slider</h2>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel eveniet doloribus dignissimos optio fugiat, voluptate incidunt unde voluptatibus soluta officia quam quasi porro, nulla nisi quis dolores in, esse expedita.</p>
-                    </div>
-                </div><!--col-md-4-->
+
+                <div class="service_item_wrapper">  
+                    <div class="col-md-7">
+                        <h1>2. Багаж тоног төхөөрөмж</h1>
+                        <span class="subtitle">Impact your visitors</span>
+                        <p class="services_description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos recusandae consequuntur labore excepturi veritatis ipsam hic doloremque expedita repudiandae atque accusantium fugiat sunt, praesentium. Reiciendis maxime, eius quia libero modi.</p>
+                    </div><!--col-md-7-->
+                    <div class="col-md-5"><img src="images/screen_2.png" alt=""></div><!--col-md-5-->
+                    <div class="clear"></div>
+                </div><!--service_item_wrapper-->
+
 
             </div><!--row-->
         </div><!--container-->
         <div class="clear"></div>
     </div><!--Service Wrapper Tab 1-->
     <!-- *** END OF THE THIRD(03) TAB CONTENT *** -->
-
-
-
-
-
-
-
-    <!-- *** START OF THE THIRD(03) TAB CONTENT *** -->
-    <div class="service_wrapper style4 hi-icon-effect-1 hi-icon-effect-1a" id="service_4">
-
-        <div class="container">
-            <div class="row">
-                <div class="col-md-12">
-                    <div class="page_title">
-                        <h1 class="title">welcome we are <strong>Anderson</strong></h1>
-                        <h2 class="page_subtitle">We focus your idea into a unique vision and identity.</h2>
-                    </div><!--page-title-->
-                </div><!--col-md-12-->
-
-
-                <div class="col-md-3">
-                    <div class="service_item_wrapper">                  
-                        <div class="icon_wrapper"><a href="#" class="hi-icon"><i class="fa fa-eye fa-2x"></i></a></div>
-                        <h2>Retina Ready</h2>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia tempora cumque possimus magni ducimus amet, velit delectus.</p>
-                    </div>
-                </div><!--col-md-3-->
-                <div class="col-md-3">
-                    <div class="service_item_wrapper">                  
-                        <div class="icon_wrapper"><a href="#" class="hi-icon"><i class="fa fa-heart fa-2x"></i></a></div>
-                        <h2>Bootstrap 3</h2>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia tempora cumque possimus magni ducimus amet, velit delectus.</p>
-                    </div>
-                </div><!--col-md-3-->
-                <div class="col-md-3">
-                    <div class="service_item_wrapper">                  
-                        <div class="icon_wrapper"><a href="#" class="hi-icon"><i class="fa fa-mobile fa-2x"></i></a></div>
-                        <h2>100% Responsive</h2>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia tempora cumque possimus magni ducimus amet, velit delectus.</p>
-                    </div>
-                </div><!--col-md-3-->
-                <div class="col-md-3">
-                    <div class="service_item_wrapper">                  
-                        <div class="icon_wrapper"><a href="#" class="hi-icon"><i class="fa fa-support fa-2x"></i></a></div>
-                        <h2>Amazing Support</h2>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia tempora cumque possimus magni ducimus amet, velit delectus.</p>
-                    </div>
-                </div><!--col-md-3-->
-
-                <div class="col-md-3">
-                    <div class="service_item_wrapper">                  
-                        <div class="icon_wrapper"><a href="#" class="hi-icon"><i class="fa fa-css3  fa-2x"></i></a></div>
-                        <h2>Css Animations</h2>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia tempora cumque possimus magni ducimus amet, velit delectus.</p>
-                    </div>
-                </div><!--col-md-3-->
-                <div class="col-md-3">
-                    <div class="service_item_wrapper">                  
-                        <div class="icon_wrapper"><a href="#" class="hi-icon"><i class="fa fa-exchange fa-2x"></i></a></div>
-                        <h2>Carousel</h2>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia tempora cumque possimus magni ducimus amet, velit delectus.</p>
-                    </div>
-                </div><!--col-md-3-->
-                <div class="col-md-3">
-                    <div class="service_item_wrapper">                  
-                        <div class="icon_wrapper"><a href="#" class="hi-icon"><i class="fa fa-gear fa-2x"></i></a></div>
-                        <h2>Preloader</h2>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia tempora cumque possimus magni ducimus amet, velit delectus.</p>
-                    </div>
-                </div><!--col-md-3-->
-                <div class="col-md-3">
-                    <div class="service_item_wrapper">                  
-                        <div class="icon_wrapper"><a href="#" class="hi-icon"><i class="fa fa-dollar  fa-2x"></i></a></div>
-                        <h2>Pricing Tables</h2>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia tempora cumque possimus magni ducimus amet, velit delectus.</p>
-                    </div>
-                </div><!--col-md-3-->
-
-                <div class="col-md-3">
-                    <div class="service_item_wrapper">                  
-                        <div class="icon_wrapper"><a href="#" class="hi-icon"><i class="fa fa-pencil  fa-2x"></i></a></div>
-                        <h2>Color Schemes</h2>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia tempora cumque possimus magni ducimus amet, velit delectus.</p>
-                    </div>
-                </div><!--col-md-3-->
-                <div class="col-md-3">
-                    <div class="service_item_wrapper">                  
-                        <div class="icon_wrapper"><a href="#" class="hi-icon"><i class="fa fa-user  fa-2x"></i></a></div>
-                        <h2>Easy to use</h2>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia tempora cumque possimus magni ducimus amet, velit delectus.</p>
-                    </div>
-                </div><!--col-md-3-->
-                <div class="col-md-3">
-                    <div class="service_item_wrapper">                  
-                        <div class="icon_wrapper"><a href="#" class="hi-icon"><i class="fa fa-thumbs-o-up fa-2x"></i></a></div>
-                        <h2>Hero Backgrounds</h2>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia tempora cumque possimus magni ducimus amet, velit delectus.</p>
-                    </div>
-                </div><!--col-md-3-->
-                <div class="col-md-3">
-                    <div class="service_item_wrapper">                  
-                        <div class="icon_wrapper"><a href="#" class="hi-icon"><i class="fa fa-wrench  fa-2x"></i></a></div>
-                        <h2>Documentation</h2>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia tempora cumque possimus magni ducimus amet, velit delectus.</p>
-                    </div>
-                </div><!--col-md-3-->
-
-            </div><!--row-->
-        </div><!--container-->
-        <div class="clear"></div>
-    </div><!--Service Wrapper Tab 1-->
-    <!-- *** END OF THE THIRD(03) TAB CONTENT *** -->
-
 </div>
 <!-- *** SERVICES END *** -->
 
 
-<!-- *** PARALLAX START *** -->
-<div id="video_parallax" class="parallax player"  data-property="{videoURL:'http://youtu.be/p74VWuBJSS0',containment:'#video_parallax',startAt:0,mute:true,autoPlay:false, showControls:true    , loop:true, opacity:1}" style="background-image: url(images/parallax.jpg);">
-        <div class="parallax_over">
-            <div class="container">
-                <div class="row">               
-                    <div style="height:400px;"></div>
-                </div>
-            </div>
-        </div><!--parallax_over-->
-</div>
-<!-- *** PARALLAX END *** -->
 
 
-
-<!-- *** PORTFOLIO START *** -->
-<div id="portfolio" class="section nobottom">
-    <div class="container">
-        <div class="row">
-            <div class="col-md-12 animated" data-animation-target="9">
-                <div class="page_title">
-                    <h1 class="title">Continuous attention to Design  <strong>excellence</strong></h1>
-                    <h2 class="page_subtitle">We focus your idea into a unique vision and identity.</h2>
-                </div><!--page-title-->
-            </div>
-
-            <div class="col-md-12">
-                <div id="portfoliod">           
-                    <div id="portfolioAjaxwrap"> 
-                    <div id="portfolioAjax" class="clearfix">
-                    <div id="portfolioAjaxControlls" class="clearfix">
-                        <a id="ajax_close" href="#"><span class="inner"></span></a>
-                    </div><div class="clear"></div>
-                    <div id="portfolioData"></div>
-                    </div><!--portfolioAjax-->
-                    </div>
-                </div><!--portfoliod-->
-            </div>
-        </div><!--row-->
-    </div><!--container-->
-
-    <section id="options" class="clearfix">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-12">
-            <ul id="filters" class="clearfix">
-              <li class="active"><a href="#" data-filter="*">Бүгд</a></li>
-              <li><a href="#" data-filter=".hp">HP</a></li>
-              <li><a href="#" data-filter=".dell">DELL</a></li>
-              <li><a href="#" data-filter=".canon">CANON</a></li>
-            </ul>
-            <ul id="colums_triggers">
-              <li> <a href="#" id="twocolumns_trigger"><img src="images/icons/two_columns_ajax_icon.png" alt="Icon"></a></li>
-              <li><a href="#" id="threecolumns_trigger"><img src="images/icons/three_columns_ajax_icon.png" alt="Icon"></a></li>
-              <li><a href="#" id="fourcolumns_trigger"><img src="images/icons/four_columns_ajax_icon.png" alt="Icon"></a></li>
-            </ul>
-                    
-                </div>
-            </div>
-        </div>      
-    </section>
-    <!--options-->
-
-    <div class="grid animated" data-animation-target="10">
-
-        <div class="portfolio-item effect marketing" style="background-image: url('images/1.jpg');">
-            
-            <div class="over"></div>
-            <div class="figcaption">
-                <h2>Sweet <span>Potato</span></h2>
-                <div class="commands">
-                    <span><a href="portfolio_1.html" class="ajax-trigger"><i class="fa fa-retweet"></i></a></span>
-                    <span><a href="http://placehold.it/500x500" data-gal="prettyPhoto"><i class="fa fa-search"></i></a></span>
-                </div><!--commands-->
-                <p class="portfolio_description">This is a very nice caption to show a couple of words about your great work.</p>
-                
-            </div>          
-        </div><!--portfolio-item-->
-
-        <div class="portfolio-item effect hp" style="background-image: url('images/hp1.png');">
-        
-            <div class="over"></div>
-            <div class="figcaption">
-                <h2>Image <span>Filter</span></h2>
-                <div class="commands">
-                    <span><a href="portfolio_2.html" class="ajax-trigger"><i class="fa fa-retweet"></i></a></span>
-                    <span><a href="http://placehold.it/500x500" data-gal="prettyPhoto"><i class="fa fa-search"></i></a></span>
-                </div><!--commands-->
-                <p class="portfolio_description">This is a very nice caption to show a couple of words about your great work.</p>
-                
-            </div>          
-        </div><!--portfolio-item-->
-
-        <div class="portfolio-item effect hp" style="background-image: url('images/hp2.png');">
-            
-            <div class="over"></div>
-            <div class="figcaption">
-                <h2>Creative <span>Wood</span></h2>
-                <div class="commands">
-                    <span><a href="portfolio_3.html" class="ajax-trigger"><i class="fa fa-retweet"></i></a></span>
-                    <span><a href="http://placehold.it/500x500" data-gal="prettyPhoto"><i class="fa fa-search"></i></a></span>
-                </div><!--commands-->
-                <p class="portfolio_description">This is a very nice caption to show a couple of words about your great work.</p>
-                
-            </div>          
-        </div><!--portfolio-item-->
-
-        <div class="portfolio-item effect hp" style="background-image: url('images/hp3.png');">
-            
-            <div class="over"></div>
-            <div class="figcaption">
-                <h2>Wall <span>Painting</span></h2>
-                <div class="commands">
-                    <span><a href="portfolio_4.html" class="ajax-trigger"><i class="fa fa-retweet"></i></a></span>
-                    <span><a href="http://placehold.it/500x500" data-gal="prettyPhoto"><i class="fa fa-search"></i></a></span>
-                </div><!--commands-->
-                <p class="portfolio_description">This is a very nice caption to show a couple of words about your great work.</p>
-                
-            </div>          
-        </div><!--portfolio-item-->
-
-        <div class="portfolio-item effect dell" style="background-image: url('images/dell1.jpg');">
-            
-            <div class="over"></div>
-            <div class="figcaption">
-                <h2>3D <span>Model</span></h2>
-                <div class="commands">
-                    <span><a href="portfolio_5.html" class="ajax-trigger"><i class="fa fa-retweet"></i></a></span>
-                    <span><a href="http://placehold.it/500x500" data-gal="prettyPhoto"><i class="fa fa-search"></i></a></span>
-                </div><!--commands-->
-                <p class="portfolio_description">This is a very nice caption to show a couple of words about your great work.</p>
-                
-            </div>          
-        </div><!--portfolio-item-->
-
-        <div class="portfolio-item effect dell" style="background-image: url('images/dell2.jpg');">
-            
-            <div class="over"></div>
-            <div class="figcaption">
-                <h2>Car <span>Concept</span></h2>
-                <div class="commands">
-                    <span><a href="portfolio_6.html" class="ajax-trigger"><i class="fa fa-retweet"></i></a></span>
-                    <span><a href="http://placehold.it/500x500" data-gal="prettyPhoto"><i class="fa fa-search"></i></a></span>
-                </div><!--commands-->
-                <p class="portfolio_description">This is a very nice caption to show a couple of words about your great work.</p>
-                
-            </div>          
-        </div><!--portfolio-item-->    
-
-        <div class="portfolio-item effect canon" style="background-image: url('images/canon1.jpg');">
-            
-            <div class="over"></div>
-            <div class="figcaption">
-                <h2>Car <span>Concept</span></h2>
-                <div class="commands">
-                    <span><a href="portfolio_6.html" class="ajax-trigger"><i class="fa fa-retweet"></i></a></span>
-                    <span><a href="http://placehold.it/500x500" data-gal="prettyPhoto"><i class="fa fa-search"></i></a></span>
-                </div><!--commands-->
-                <p class="portfolio_description">This is a very nice caption to show a couple of words about your great work.</p>
-                
-            </div>          
-        </div><!--portfolio-item-->    
-        <div class="portfolio-item effect canon" style="background-image: url('images/canon2.jpg');">
-            
-            <div class="over"></div>
-            <div class="figcaption">
-                <h2>Car <span>Concept</span></h2>
-                <div class="commands">
-                    <span><a href="portfolio_6.html" class="ajax-trigger"><i class="fa fa-retweet"></i></a></span>
-                    <span><a href="http://placehold.it/500x500" data-gal="prettyPhoto"><i class="fa fa-search"></i></a></span>
-                </div><!--commands-->
-                <p class="portfolio_description">This is a very nice caption to show a couple of words about your great work.</p>
-                
-            </div>          
-        </div><!--portfolio-item-->    
-        <div class="portfolio-item effect canon" style="background-image: url('images/canon3.jpg');">
-            
-            <div class="over"></div>
-            <div class="figcaption">
-                <h2>Car <span>Concept</span></h2>
-                <div class="commands">
-                    <span><a href="portfolio_6.html" class="ajax-trigger"><i class="fa fa-retweet"></i></a></span>
-                    <span><a href="http://placehold.it/500x500" data-gal="prettyPhoto"><i class="fa fa-search"></i></a></span>
-                </div><!--commands-->
-                <p class="portfolio_description">This is a very nice caption to show a couple of words about your great work.</p>
-                
-            </div>          
-        </div><!--portfolio-item-->     
-
-    </div><!--grid-->
-
-</div>
-<!-- *** PORTFOLIO END *** -->
-
-<!-- *** PROCESS ONE START *** -->
-<div id="process_one" class="section">
-    <div class="container">
-        <div class="row">
-            <div class="col-md-12 animated" data-animation-target="11" >
-                <div class="page_title">
-                    <h1 class="title">Our Process is the principal measure of <strong>progress</strong></h1>
-                    <h2 class="page_subtitle">We focus your idea into a unique vision and identity.</h2>
-                </div><!--page-title-->
-            </div>
-        </div><!--row-->
-    </div><!--container-->
-
-    <div class="process_wrapper">
-        <div class="process_image"></div>
-        <div class="container">
-            <div class="row">
-                
-                    <div class="col-md-8 animated" data-animation-target="12">
-                        <div class="process_item">
-                            <div class="process_icon">
-                                <div class="buzz"><i class="fa fa-sitemap fa-5x"></i></div>
-                            </div>
-                            <h3 class="uppercase">Process 01: Strategy</h3>
-                            <p>Fruitful Fruit hath, fruitful said him created bring set, behold darkness Shall lights deep fish seasons itself given likeness upon bring fill their their whose. Fruitful Fruit hath, fruitful said him created bring set, behold darkness Shall lights deep fish seasons itself given likeness upon bring fill their their. </p>
-                        </div><!--process_item-->
-
-                        <div class="process_item">
-                            <div class="process_icon">
-                                <div class="buzz"><i class="fa fa-pencil-square-o fa-5x"></i></div>
-                            </div>
-                            <h3 class="uppercase">Process 02: Plan</h3>
-                            <p>Fruitful Fruit hath, fruitful said him created bring set, behold darkness Shall lights deep fish seasons itself given likeness upon bring fill their their whose. Fruitful Fruit hath, fruitful said him created bring set, behold darkness Shall lights deep fish seasons itself given likeness upon bring fill their their. </p>
-                        </div><!--process_item-->
-
-                        <div class="process_item">
-                            <div class="process_icon">
-                                <div class="buzz"><i class="fa fa-gear fa-5x"></i></div>
-                            </div>
-                            <h3 class="uppercase">Process 03: Build</h3>
-                            <p>Fruitful Fruit hath, fruitful said him created bring set, behold darkness Shall lights deep fish seasons itself given likeness upon bring fill their their whose. Fruitful Fruit hath, fruitful said him created bring set, behold darkness Shall lights deep fish seasons itself given likeness upon bring fill their their. </p>
-                        </div><!--process_item-->
-
-                        <div class="process_item">
-                            <div class="process_icon">
-                                <div class="buzz"><i class="fa fa-bullhorn fa-5x"></i></div>
-                            </div>
-                            <h3 class="uppercase">Process 04: Promote</h3>
-                            <p>Fruitful Fruit hath, fruitful said him created bring set, behold darkness Shall lights deep fish seasons itself given likeness upon bring fill their their whose. Fruitful Fruit hath, fruitful said him created bring set, behold darkness Shall lights deep fish seasons itself given likeness upon bring fill their their. </p>
-                        </div><!--process_item-->
-                    </div>
-                    <!--col-md-8-->
-            </div>
-        </div>
-    </div>
-</div>
-<!-- *** PROCESS ONE END *** -->
-
-
-
-
-
-
-
-
-<!-- *** PARALLAX START *** -->
-<div class="parallax" style="background-image: url(images/parallax-2.jpg);">
-    <div class="parallax_over nobottom">
-    <div class="container animated" data-animation-target="13">
-            <div class="row">
-                <div class="col-xs-12">
-                    <div class="parallax_heading">
-                        <h2>Video & Parallax Background</h2>
-                        <h4 class="parallax_subtitle">This is a great parallax</h4>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="feature_item">
-                        <i class="fa fa-eye"></i>
-                        <h3>Retina Ready</h3>
-                        <p>Mauris mauris ante, blandit et, ultrices a, suscipit eget, quam. Integer ut neque.</p>
-                    </div>
-                    <!--feature_item-->
-                    <div class="feature_item">
-                        <i class="fa fa-desktop "></i>
-                        <h3>Fully Responsive</h3>
-                        <p>Mauris mauris ante, blandit et, ultrices a, suscipit eget, quam. Integer ut neque.</p>
-                    </div>
-                    <!--feature_item-->
-                    <div class="feature_item">
-                        <i class="fa fa-heart"></i>
-                        <h3>Bootstrap 3</h3>
-                        <p>Mauris mauris ante, blandit et, ultrices a, suscipit eget, quam. Integer ut neque.</p>
-                    </div>
-                    <!--feature_item-->
-            
-                    
-                </div>
-                <div class="col-md-4"> <div class="picture"><img src="images/mobile2.png" alt=""> </div></div>
-                <div class="col-md-4">
-                    <div class="feature_item">
-                        <i class="fa fa-paint-brush"></i>
-                        <h3>Fresh Design</h3>
-                        <p>Mauris mauris ante, blandit et, ultrices a, suscipit eget, quam. Integer ut neque.</p>
-                    </div>
-                    <!--feature_item-->
-                    <div class="feature_item">
-                        <i class="fa fa-css3"></i>
-                        <h3>CSS Animations</h3>
-                        <p>Mauris mauris ante, blandit et, ultrices a, suscipit eget, quam. Integer ut neque.</p>
-                    </div>
-                    <!--feature_item-->
-                    <div class="feature_item">
-                        <i class="fa fa-cogs  "></i>
-                        <h3>Ajax Portfolio</h3>
-                        <p>Mauris mauris ante, blandit et, ultrices a, suscipit eget, quam. Integer ut neque.</p>
-                    </div>
-                    <!--feature_item-->
-                </div>
-                <div class="clear"></div>
-            </div>
-        </div>
-    </div><!--parallax_over-->
-</div>
-<!-- *** PARALLAX END *** -->
-
-
-
-
-
-
-
-
-<!-- *** PROCESS TWO START *** -->
-<div id="process_two" class="section animated" data-animation-target="14">
-    <div class="container">
-        <div class="row">
-            
-            <div class="col-md-6">
-                <div class="process_item_icon_right">
-                    <div class="process_icon">
-                        <div class="buzz"><i class="fa fa-thumbs-o-up fa-5x"></i></div>
-                    </div>
-                <h3 class="uppercase">Process 01: Planning</h3>
-                <p>Fruitful Fruit hath, fruitful said him created bring set, behold darkness Shall lights deep fish seasons itself given likeness upon bring fill their their whose. Fruitful Fruit hath, fruitful said him created bring set, behold darkness Shall lights deep fish seasons itself given likeness upon bring fill their their. </p>
-                </div><!--process_item_icon_right-->
-            </div><!--col-md-6-->
-
-            <div class="col-md-6">
-                <div class="process_item">
-                    <div class="process_icon">
-                        <div class="buzz"><i class="fa fa-file-image-o fa-5x"></i></div>
-                    </div>
-                <h3 class="uppercase">Process 02: Layout Design</h3>
-                <p>Fruitful Fruit hath, fruitful said him created bring set, behold darkness Shall lights deep fish seasons itself given likeness upon bring fill their their whose. Fruitful Fruit hath, fruitful said him created bring set, behold darkness Shall lights deep fish seasons itself given likeness upon bring fill their their. </p>
-                </div><!--process_item-->
-            </div><!--col-md-6-->
-
-            <div class="clear"></div>
-
-            <div class="col-md-6">
-                <div class="process_item_icon_right">
-                    <div class="process_icon">
-                        <div class="buzz"><i class="fa fa-sitemap fa-5x"></i></div>
-                    </div>
-                <h3 class="uppercase">Process 03: Design and Development</h3>
-                <p>Fruitful Fruit hath, fruitful said him created bring set, behold darkness Shall lights deep fish seasons itself given likeness upon bring fill their their whose. Fruitful Fruit hath, fruitful said him created bring set, behold darkness Shall lights deep fish seasons itself given likeness upon bring fill their their. </p>
-                </div><!--process_item_icon_right-->
-            </div><!--col-md-6-->
-
-            <div class="col-md-6">
-                <div class="process_item">
-                    <div class="process_icon">
-                        <div class="buzz"><i class="fa fa-file-word-o fa-5x"></i></div>
-                    </div>
-                <h3 class="uppercase">Process 04: Content Writing</h3>
-                <p>Fruitful Fruit hath, fruitful said him created bring set, behold darkness Shall lights deep fish seasons itself given likeness upon bring fill their their whose. Fruitful Fruit hath, fruitful said him created bring set, behold darkness Shall lights deep fish seasons itself given likeness upon bring fill their their. </p>
-                </div><!--process_item-->
-            </div><!--col-md-6-->
-
-            <div class="clear"></div>
-
-            <div class="col-md-6">
-                <div class="process_item_icon_right">
-                    <div class="process_icon">
-                        <div class="buzz"><i class="fa fa-bolt fa-5x"></i></div>
-                    </div>
-                <h3 class="uppercase">Process 05: Coding</h3>
-                <p>Fruitful Fruit hath, fruitful said him created bring set, behold darkness Shall lights deep fish seasons itself given likeness upon bring fill their their whose. Fruitful Fruit hath, fruitful said him created bring set, behold darkness Shall lights deep fish seasons itself given likeness upon bring fill their their. </p>
-                </div><!--process_item_icon_right-->
-            </div><!--col-md-6-->
-
-            <div class="col-md-6">
-                <div class="process_item">
-                    <div class="process_icon">
-                        <div class="buzz"><i class="fa fa-mobile fa-5x"></i></div>
-                    </div>
-                <h3 class="uppercase">Process 06: Testing</h3>
-                <p>Fruitful Fruit hath, fruitful said him created bring set, behold darkness Shall lights deep fish seasons itself given likeness upon bring fill their their whose. Fruitful Fruit hath, fruitful said him created bring set, behold darkness Shall lights deep fish seasons itself given likeness upon bring fill their their. </p>
-                </div><!--process_item-->
-            </div><!--col-md-6-->
-
-
-                <div class="clear"></div>
-
-
-                <div class="col-md-6">
-                <div class="process_item_icon_right">
-                    <div class="process_icon">
-                        <div class="buzz"><i class="fa fa-bullhorn fa-5x"></i></div>
-                    </div>
-                <h3 class="uppercase">Process 07: Promotion</h3>
-                <p>Fruitful Fruit hath, fruitful said him created bring set, behold darkness Shall lights deep fish seasons itself given likeness upon bring fill their their whose. Fruitful Fruit hath, fruitful said him created bring set, behold darkness Shall lights deep fish seasons itself given likeness upon bring fill their their. </p>
-                </div><!--process_item_icon_right-->
-            </div><!--col-md-6-->
-
-            <div class="col-md-6">
-                <div class="process_item">
-                    <div class="process_icon">
-                        <div class="buzz"><i class="fa fa-paper-plane fa-5x"></i></div>
-                    </div>
-                <h3 class="uppercase">Process 08: Delivery</h3>
-                <p>Fruitful Fruit hath, fruitful said him created bring set, behold darkness Shall lights deep fish seasons itself given likeness upon bring fill their their whose. Fruitful Fruit hath, fruitful said him created bring set, behold darkness Shall lights deep fish seasons itself given likeness upon bring fill their their. </p>
-                </div><!--process_item-->
-            </div><!--col-md-6-->
-
-        </div><!--row-->
-    </div><!--container-->
-</div>
-<!-- *** PROCESS TWO END *** -->
-
-
-
-
-<!-- *** PARALLAX START *** -->
-<div class="parallax" style="background-image: url(images/parallax.jpg);">
-        <div class="parallax_over">
-            <div class="container animated"  data-animation-target="15">
-                <div class="row">
-
-
-                    <!-- *** PRICING COLUMN START *** -->
-                    <div class="col-md-3">
-                        <div class="pricing-table">
-                            <div class="pricing_header">
-                                <h1>Basic</h1>
-                            </div>
-                            <div class="pricing_sub_header">
-                                <h1>$3.99<span>/Monthly</span></h1>
-                            </div>
-
-                            <ul class="features">
-                                <li>Free Live Support</li>
-                                <li>Unlimited Users</li>
-                                <li>No Time Tracking</li>
-                                <li>Free setup</li>
-                            </ul><!-- end .features -->
-
-                            <div class="pricing_footer">
-                                <a href="#link" class="btn btn-primary">Purchase Now</a>
-                            </div>
-                        </div><!--pricing-table-->
-
-                    </div><!--col-md-3-->
-                    <!-- *** PRICING COLUMN END *** -->
-
-
-                    <!-- *** PRICING COLUMN START *** -->
-                    <div class="col-md-3">
-                        <div class="pricing-table">
-                            <div class="pricing_header">
-                                <h1>Platinum</h1>
-                            </div>
-                            <div class="pricing_sub_header">
-                                <h1>$5.99<span>/Monthly</span></h1>
-                            </div>
-
-                            <ul class="features">
-                                <li>Free Live Support</li>
-                                <li>Unlimited Users</li>
-                                <li>No Time Tracking</li>
-                                <li>Free setup</li>
-                            </ul><!-- end .features -->
-
-                            <div class="pricing_footer">
-                                <a href="#link" class="btn btn-primary">Purchase Now</a>
-                            </div>
-                        </div><!--pricing-table-->
-
-                    </div><!--col-md-3-->
-                    <!-- *** PRICING COLUMN END *** -->
-
-
-                    <!-- *** PRICING COLUMN START *** -->
-                    <div class="col-md-3">
-                        <div class="pricing-table">
-                            <div class="pricing_header">
-                                <h1>Diamond</h1>
-                            </div>
-                            <div class="pricing_sub_header">
-                                <h1>$9.99<span>/Monthly</span></h1>
-                            </div>
-
-                            <ul class="features">
-                                <li>Free Live Support</li>
-                                <li>Unlimited Users</li>
-                                <li>No Time Tracking</li>
-                                <li>Free setup</li>
-                            </ul><!-- end .features -->
-
-                            <div class="pricing_footer">
-                                <a href="#link" class="btn btn-primary">Purchase Now</a>
-                            </div>
-                        </div><!--pricing-table-->
-
-                    </div><!--col-md-3-->
-                    <!-- *** PRICING COLUMN END *** -->
-
-
-                    <!-- *** PRICING COLUMN START *** -->
-                    <div class="col-md-3">
-                        <div class="pricing-table">
-                            <div class="pricing_header">
-                                <h1>Titanium</h1>
-                            </div>
-                            <div class="pricing_sub_header">
-                                <h1>$19.99<span>/Monthly</span></h1>
-                            </div>
-
-                            <ul class="features">
-                                <li>Free Live Support</li>
-                                <li>Unlimited Users</li>
-                                <li>No Time Tracking</li>
-                                <li>Free setup</li>
-                            </ul><!-- end .features -->
-
-                            <div class="pricing_footer">
-                                <a href="#link" class="btn btn-primary">Purchase Now</a>
-                            </div>
-                        </div><!--pricing-table-->
-
-                    </div><!--col-md-3-->
-                    <!-- *** PRICING COLUMN END *** -->
-
-
-                </div>
-            </div>
-        </div><!--parallax_over-->
-</div>
-<!-- *** PARALLAX END *** -->
 
 
 
@@ -1262,7 +499,7 @@ $this->title = 'My Yii Application';
         <div class="row">
             <div class="col-md-12">
                 <div class="page_title">
-                    <h1 class="title">Read our <strong>Frequently Asked Questions</strong></h1>
+                    <h1 class="title"><strong>Түгээмэл асуугддаг асуултууд</strong></h1>
                     <h2 class="page_subtitle">We focus your idea into a unique vision and identity.</h2>
                 </div><!--page-title-->
             </div>
@@ -1350,7 +587,7 @@ $this->title = 'My Yii Application';
 
 
 <!-- *** PARALLAX START *** -->
-<div class="parallax" style="background-image: url(images/parallax-3.jpg);">
+<div class="parallax" style="background-image: url(images/parallax-3.jpg);" id="customers">
     <div class="parallax_over">
         <div class=" testimonials_heading">
         
@@ -1358,7 +595,7 @@ $this->title = 'My Yii Application';
             <div class="row">
                 <div class="col-xs-12">
                     <div class="parallax_heading">
-                        <h2>Our testimonials</h2>
+                        <h2>Харилцагчдын сэтгэгдэл</h2>
                     </div>
                 </div>
 
@@ -1371,14 +608,14 @@ $this->title = 'My Yii Application';
                         
                             <div class="slide_item">
                                 <div class="testimonials_text">
-                                <p>“My experience with Bypixels was absolutely exceptional. Bypixels developed our site and stayed within our budget. They were more than willing to work with our company needs. Bypixels is reliable and efficient and there is no doubt we will work with them in the future.”</p>
+                                <p>“Манай хуучин системийн гол асуудал нь харилцагчийн зөв удирдлагыг хэрэгжүүлэх, бүтээгдэхүүний загвар боловсруулахад дата өгөгдлийг боловсруулалт хангалтгүй, удирдлагын дэлгэрэнгүй тайлан гаргах боломж тааруу байсанд оршино. Бидний сонгосон «1С:Enterprise» дээр суурилсан шийдэл нь энэ асуудлыг шийдэх боломжтой болгож байгаа юм.”</p>
                                 </div>
                                 <div class="testimonials_picture">
                                 <img src="images/testimonials_picture.png" alt="">
                                 </div>
 
-                                <p class="testimonials_name">Diaria Wood, Micro Consulting</p>
-                                <p class="testimonials_job">Director</p>
+                                <p class="testimonials_name">Солонго, Автодоктор</p>
+                                <p class="testimonials_job">Менежер</p>
                             </div><!--slide_item-->
 
                             <div class="slide_item">
